@@ -1,0 +1,52 @@
+{
+    "name": "node_open_webapp",
+    "version": "0.1.0",
+    "description": "Tools to node_open_webapp package.json files",
+    "author": {
+        "name": "Martin Zhou",
+        "email": "zhoushineyoung@hotmail.com",
+        "web": "https://github.com/zhoushineyoung"
+    },
+    "contributors": [
+        {
+            "name": "Martin Zhou",
+            "email": "nick@sullivanflock.com",
+            "url": "https://github.com/zhoushineyoung"
+        },
+        {
+            "name": "Liya",
+            "url": "https://github.com/zhoushineyoung"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:zhoushineyoung/node_open_webapp.git"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/zhoushineyoung/node_open_webapp/blob/master/LICENSE"
+    }],
+    "keywords": ["package.json", "node_open_webapp", "node.js", "node", "zhoushineyoung"],
+    "homepage": "https://github.com/zhoushineyoung",
+    "bugs": {
+        "url" : "https://github.com/zhoushineyoung/node_open_webapp/issues",
+        "email" : "zhoushineyoung@hotmail.com"
+    },
+    "dependencies": {
+        "log4js": "0.6.15",
+        "redis":"0.11.0",
+        "redis-party":"0.4.1"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1",
+        "grunt-contrib-jshint": "~0",
+        "grunt-contrib-qunit": "~0"
+    },
+    "scripts": {
+        "test": "grunt citest"
+    },
+    "main": "PJV.js",
+    "bin": {
+        "pjv": "./bin/pjv"
+    }
+}

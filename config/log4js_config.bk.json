@@ -1,0 +1,24 @@
+{
+    "appenders": [
+        {"type": "console", "category": "console"},
+        {
+            "type": "file",
+            "absolute": true,
+            "filename": "../../../logs/node_open_webapp/log_relative.log",
+            "maxLogSize": 20480,
+            "backups": 3,
+            "category": "relative-logger"
+        },
+        {
+            "type": "dateFile",
+            "filename": "D:/logs/node_open_webapp/log_absolute.log",
+            "pattern": "_yyyy-MM-dd hh:mm:ss,SSS O",
+            "absolute": true,
+            "alwaysIncludePattern": false,
+            "maxLogSize": 20480,
+            "backups": 10,
+            "category": "absolute-logger"
+        }
+    ],
+    "levels":{ "relative-logger": "ERROR", "absolute-logger": "DEBUG"}
+}
