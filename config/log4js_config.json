@@ -10,13 +10,11 @@
             "category": "relative-logger"
         },
         {
-            "type": "dateFile",
+            "type": "file",
+            "absolute":true,
             "filename": "D:/logs/node_open_webapp/log_absolute.log",
-            "pattern": "_yyyy-MM-dd hh:mm:ss,SSS O",
-            "absolute": true,
-            "alwaysIncludePattern": false,
             "maxLogSize": 20480,
-            "backups": 10,
+            "backups": 3,
             "category": "absolute-logger"
         }
     ],

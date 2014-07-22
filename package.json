@@ -37,16 +37,5 @@
         "redis":"0.11.0",
         "redis-party":"0.4.1"
     },
-    "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0",
-        "grunt-contrib-qunit": "~0"
-    },
-    "scripts": {
-        "test": "grunt citest"
-    },
-    "main": "PJV.js",
-    "bin": {
-        "pjv": "./bin/pjv"
-    }
+    "main": "index.js"
 }
